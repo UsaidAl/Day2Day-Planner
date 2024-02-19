@@ -31,6 +31,8 @@ $(function () {
     }
   });
 
+  console.log("hello")
+
   // Get user input from local storage and set the values of the corresponding textarea elements
   $(".time-block").each(function() {
     var timeBlockID = $(this).attr("id");
